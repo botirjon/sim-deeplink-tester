@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0875D5E15E1C0F46019EBBF7 /* SimctlCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2AA49DFEA01699A90A859E3B /* SimctlCore */; };
+		1EBF55B499D15F2795DD1B09 /* SimDeeplinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44BD6F170C56D0BD810B70 /* SimDeeplinkApp.swift */; };
+		46AEC1E32B4E78A69BC455EF /* ManageLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2E9975D8A5FFF52B1DE34 /* ManageLinksView.swift */; };
+		652FEC384847BB046612043F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CFE8C3E7AB3CEAC27E6E2A /* Assets.xcassets */; };
+		CF03EB0D3F6EC731A3B9C5E0 /* DeeplinkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA815B384A3577DE99E8A01 /* DeeplinkStore.swift */; };
+		E18318D2E8EFE379F76CB547 /* MenuBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E43E70AEC32CA12745462 /* MenuBarContent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D26040D2BD7C7F0A5414275 /* sim-deeplink-tester */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "sim-deeplink-tester"; path = .; sourceTree = SOURCE_ROOT; };
+		5BD2E9975D8A5FFF52B1DE34 /* ManageLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageLinksView.swift; sourceTree = "<group>"; };
+		6030F695D9468FCAEC668CF8 /* SimDeeplink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimDeeplink.entitlements; sourceTree = "<group>"; };
+		84CFE8C3E7AB3CEAC27E6E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4E43E70AEC32CA12745462 /* MenuBarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContent.swift; sourceTree = "<group>"; };
+		B04CE19FEB963188D799D643 /* SimDeeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimDeeplink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA44BD6F170C56D0BD810B70 /* SimDeeplinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimDeeplinkApp.swift; sourceTree = "<group>"; };
+		DFA815B384A3577DE99E8A01 /* DeeplinkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A88790224C5945055A7BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0875D5E15E1C0F46019EBBF7 /* SimctlCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117926B2324A9952E051552F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04CE19FEB963188D799D643 /* SimDeeplink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E983BB793083C1A584BBA6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3D26040D2BD7C7F0A5414275 /* sim-deeplink-tester */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		DBFD3518AE274A3F8C5A2A93 /* SimDeeplink */ = {
+			isa = PBXGroup;
+			children = (
+				84CFE8C3E7AB3CEAC27E6E2A /* Assets.xcassets */,
+				DFA815B384A3577DE99E8A01 /* DeeplinkStore.swift */,
+				5BD2E9975D8A5FFF52B1DE34 /* ManageLinksView.swift */,
+				AF4E43E70AEC32CA12745462 /* MenuBarContent.swift */,
+				6030F695D9468FCAEC668CF8 /* SimDeeplink.entitlements */,
+				CA44BD6F170C56D0BD810B70 /* SimDeeplinkApp.swift */,
+			);
+			path = SimDeeplink;
+			sourceTree = "<group>";
+		};
+		FF133B5F87C9CFFFB22BD266 = {
+			isa = PBXGroup;
+			children = (
+				79E983BB793083C1A584BBA6 /* Packages */,
+				DBFD3518AE274A3F8C5A2A93 /* SimDeeplink */,
+				117926B2324A9952E051552F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D254F83FF769D911172BDF48 /* SimDeeplink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDB3ECBEBBDCC30FC66FADE /* Build configuration list for PBXNativeTarget "SimDeeplink" */;
+			buildPhases = (
+				189949E1AA92747C7979C498 /* Sources */,
+				4A05BF90A4568CE14D112406 /* Resources */,
+				42A88790224C5945055A7BF3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimDeeplink;
+			packageProductDependencies = (
+				2AA49DFEA01699A90A859E3B /* SimctlCore */,
+			);
+			productName = SimDeeplink;
+			productReference = B04CE19FEB963188D799D643 /* SimDeeplink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37382C5C6C583755206506EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D254F83FF769D911172BDF48 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F229384A02A99A8CA376F8E /* Build configuration list for PBXProject "SimDeeplink" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FF133B5F87C9CFFFB22BD266;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E26EA7DD804E40DE71DB67CE /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 117926B2324A9952E051552F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D254F83FF769D911172BDF48 /* SimDeeplink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A05BF90A4568CE14D112406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652FEC384847BB046612043F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189949E1AA92747C7979C498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF03EB0D3F6EC731A3B9C5E0 /* DeeplinkStore.swift in Sources */,
+				46AEC1E32B4E78A69BC455EF /* ManageLinksView.swift in Sources */,
+				E18318D2E8EFE379F76CB547 /* MenuBarContent.swift in Sources */,
+				1EBF55B499D15F2795DD1B09 /* SimDeeplinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1007A8A4819A170E2EC0F932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		2BE0F071E3E18CCD26BA0344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		902602FAF8B10A0C862B4DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimDeeplink/SimDeeplink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botirjon.SimDeeplink;
+				PRODUCT_NAME = SimDeeplink;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF14BB1A31A5D4A1772A8023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimDeeplink/SimDeeplink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.botirjon.SimDeeplink;
+				PRODUCT_NAME = SimDeeplink;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FDB3ECBEBBDCC30FC66FADE /* Build configuration list for PBXNativeTarget "SimDeeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902602FAF8B10A0C862B4DD6 /* Debug */,
+				FF14BB1A31A5D4A1772A8023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F229384A02A99A8CA376F8E /* Build configuration list for PBXProject "SimDeeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1007A8A4819A170E2EC0F932 /* Debug */,
+				2BE0F071E3E18CCD26BA0344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E26EA7DD804E40DE71DB67CE /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AA49DFEA01699A90A859E3B /* SimctlCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SimctlCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 37382C5C6C583755206506EA /* Project object */;
+}

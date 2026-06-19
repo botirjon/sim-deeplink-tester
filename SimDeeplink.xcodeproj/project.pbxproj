@@ -16,12 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D26040D2BD7C7F0A5414275 /* sim-deeplink-tester */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "sim-deeplink-tester"; path = .; sourceTree = SOURCE_ROOT; };
 		5BD2E9975D8A5FFF52B1DE34 /* ManageLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageLinksView.swift; sourceTree = "<group>"; };
 		6030F695D9468FCAEC668CF8 /* SimDeeplink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimDeeplink.entitlements; sourceTree = "<group>"; };
 		84CFE8C3E7AB3CEAC27E6E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4E43E70AEC32CA12745462 /* MenuBarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContent.swift; sourceTree = "<group>"; };
 		B04CE19FEB963188D799D643 /* SimDeeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimDeeplink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50CF55EFF2B4B45D5DB707A /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = Core; sourceTree = SOURCE_ROOT; };
 		CA44BD6F170C56D0BD810B70 /* SimDeeplinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimDeeplinkApp.swift; sourceTree = "<group>"; };
 		DFA815B384A3577DE99E8A01 /* DeeplinkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +49,7 @@
 		79E983BB793083C1A584BBA6 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				3D26040D2BD7C7F0A5414275 /* sim-deeplink-tester */,
+				B50CF55EFF2B4B45D5DB707A /* Core */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			mainGroup = FF133B5F87C9CFFFB22BD266;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E26EA7DD804E40DE71DB67CE /* XCLocalSwiftPackageReference "." */,
+				A20F3BDF74C5C5C5010FB067 /* XCLocalSwiftPackageReference "Core" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 117926B2324A9952E051552F /* Products */;
@@ -352,9 +352,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		E26EA7DD804E40DE71DB67CE /* XCLocalSwiftPackageReference "." */ = {
+		A20F3BDF74C5C5C5010FB067 /* XCLocalSwiftPackageReference "Core" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = .;
+			relativePath = Core;
 		};
 /* End XCLocalSwiftPackageReference section */
 

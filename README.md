@@ -45,9 +45,10 @@ xcodegen generate
 
 ## Using the CLI
 
-The CLI is a SwiftPM executable, independent of the Xcode project:
+The CLI is a SwiftPM executable in `Core/`, independent of the Xcode project:
 
 ```bash
+cd Core
 swift run simdpl myapp://product/123
 swift run simdpl add onboarding myapp://onboard
 swift run simdpl onboarding         # open by saved name
@@ -58,6 +59,7 @@ swift run simdpl sims
 Install globally:
 
 ```bash
+cd Core
 swift build -c release
 cp .build/release/simdpl /usr/local/bin/simdpl
 ```
@@ -73,11 +75,12 @@ SimDeeplink/                  # macOS app target sources
 ├── SimDeeplink.entitlements
 └── Assets.xcassets/
 
-Sources/                      # SwiftPM package
-├── SimctlCore/               # shared library: model, storage, simctl wrapper
-└── simdpl/                   # CLI (swift-argument-parser)
+Core/                         # SwiftPM package (referenced by the app)
+├── Package.swift             # SimctlCore library + simdpl executable
+└── Sources/
+    ├── SimctlCore/           # shared library: model, storage, simctl wrapper
+    └── simdpl/               # CLI (swift-argument-parser)
 
 project.yml                   # XcodeGen spec for the app
 SimDeeplink.xcodeproj/        # generated; committed for convenience
-Package.swift                 # SimctlCore library + simdpl executable
 ```

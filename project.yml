@@ -14,7 +14,7 @@ settings:
 
 packages:
   SimctlCore:
-    path: .
+    path: Core
 
 targets:
   SimDeeplink:
